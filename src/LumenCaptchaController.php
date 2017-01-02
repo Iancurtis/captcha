@@ -1,12 +1,12 @@
 <?php
 
-namespace Mews\Captcha;
+namespace Iancurtis\Captcha;
 
 use Laravel\Lumen\Routing\Controller;
 
 /**
  * Class CaptchaController
- * @package Mews\Captcha
+ * @package Iancurtis\Captcha
  */
 class LumenCaptchaController extends Controller
 {
@@ -14,7 +14,7 @@ class LumenCaptchaController extends Controller
     /**
      * get CAPTCHA
      *
-     * @param \Mews\Captcha\Captcha $captcha
+     * @param \Iancurtis\Captcha\Captcha $captcha
      * @param string $config
      * @return \Intervention\Image\ImageManager->response
      */

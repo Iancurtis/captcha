@@ -1,15 +1,15 @@
 {
-	"name": "mews/captcha",
+	"name": "iancurtis/captcha",
 	"type": "package",
 	"description": "Laravel 5 Captcha Package",
 	"keywords": ["laravel5 Captcha", "laravel5 Security", "Captcha"],
-	"homepage": "https://github.com/mewebstudio/captcha",
+	"homepage": "https://github.com/iancurtis/captcha",
 	"license": "MIT",
 	"authors": [
 		{
 			"name": "Muharrem ERİN",
 			"email": "me@mewebstudio.com",
-			"homepage": "https://github.com/mewebstudio",
+			"homepage": "https://github.com/iancurtis",
 			"role": "Developer"
 		}
 	],
@@ -28,7 +28,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Mews\\Captcha\\": "src/"
+			"Iancurtis\\Captcha\\": "src/"
 		},
 		"files": [
 			"src/helpers.php"
@@ -39,7 +39,7 @@
 			"tests"
 		],
 		"psr-4": {
-			"Mews\\Test\\": "tests/"
+			"Iancurtis\\Test\\": "tests/"
 		}
 	},
 	"minimum-stability": "dev"

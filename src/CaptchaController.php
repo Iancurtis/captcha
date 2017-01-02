@@ -1,13 +1,13 @@
 <?php
 
-namespace Mews\Captcha;
+namespace Iancurtis\Captcha;
 
 use Illuminate\Routing\Controller;
-use Mews\Captcha\Facades\Captcha;
+use Iancurtis\Captcha\Facades\Captcha;
 
 /**
  * Class CaptchaController
- * @package Mews\Captcha
+ * @package Iancurtis\Captcha
  */
 class CaptchaController extends Controller
 {
@@ -15,7 +15,7 @@ class CaptchaController extends Controller
     /**
      * get CAPTCHA
      *
-     * @param \Mews\Captcha\Captcha $captcha
+     * @param \Iancurtis\Captcha\Captcha $captcha
      * @param string $config
      * @return \Intervention\Image\ImageManager->response
      */
