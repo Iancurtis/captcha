@@ -15,7 +15,7 @@ namespace Mews\Captcha;
  */
 
 use Exception;
-use Illuminate\Config\Repository;
+use October\Rain\Config\Repository;
 use Illuminate\Hashing\BcryptHasher as Hasher;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;

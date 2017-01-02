@@ -3,6 +3,7 @@
 namespace Mews\Captcha;
 
 use Illuminate\Routing\Controller;
+use Mews\Captcha\Facades\Captcha;
 
 /**
  * Class CaptchaController
@@ -18,9 +19,9 @@ class CaptchaController extends Controller
      * @param string $config
      * @return \Intervention\Image\ImageManager->response
      */
-    public function getCaptcha(Captcha $captcha, $config = 'default')
+    public function getCaptcha($config = 'default')
     {
-        return $captcha->create($config);
+        return Captcha::create($config);
     }
 
 }
